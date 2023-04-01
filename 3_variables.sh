@@ -1,5 +1,22 @@
 #!/bin/bash
 
+# Author: Ashish Porwal
+# Date Created: 12/Feb/2023
+# Date Modified: 26/March/2023
+
+# Description
+
+# What are Parameters in bash script ?
+# A parameter is anything that stores a value.
+# 	There are three types of parameters:
+#	1. Varaibles - a paramter whose values you can change manaually
+#	2. Positional paramters
+#	3. Special parameters
+
+
+# Usage
+# Creating varibale and saving time
+
 #here we are going to define variables- just notice while defining variable we do not use space between variable_name and its value. if we use space and write like this - a = Ashish ,then this won't be a variable anymore
 
 a=Ashish
@@ -9,7 +26,7 @@ d='Ashish Porwal'
 
 #this is how we echo the defined variables - we use $ . so whenever we use $ then we tell the terminal that the next word right after $ is a varaible.
 
-echo My first name is $a
+echo My first name is $a  #we generally call variables like this - echo My first name is ${a}
 echo "And my last name is $b"
 echo My full name is $c
 echo My full name is $d

@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/bash (this is called Shebang line)
 
-#The first line is always #!/bin/bash in a bash file because this line defines that you are going to run the script under bash environment
+#The first line is always #!/bin/bash in a bash file because this line defines that you are going to run the script under bash environment..
+#similarly if we want to run the file in any particular environment then we need to define it
 
 #and using hash(#)we can write the comments.
 
