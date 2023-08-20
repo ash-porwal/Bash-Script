@@ -2,14 +2,17 @@
 
 # Author: Ashish Porwal
 # Date Created: 12/Feb/2023
-# Date Modified: 26/March/2023
+# Date Modified: 20/August/2023
 
 # Description
 
 # What are Parameters in bash script ?
 # A parameter is anything that stores a value.
 # 	There are three types of parameters:
-#	1. Varaibles - a paramter whose values you can change manaually
+#	1. Varaibles - a paramter whose values you can change manaually, 
+#       and variable name can contain only alpha numeric values or underscore, means if I want to make some varible then I would do first_var="Some value" but if i do first-val="Some value" then it is wrong.
+#       and variables are case sensitive too that means This_var and this_var are not equal.
+#       it is a good practice to make varibale names in lowercase, and use underscore to separate words.
 #	2. Positional paramters
 #	3. Special parameters
 
@@ -43,3 +46,6 @@ echo $e
 #if you want to echo the variable which value is a command itself, then while defining that command to a variable we use ticks(right below ESC key) like this -
 d=`hostname`
 echo $d
+
+# If I want to append some string, then I would need to use {}
+echo ${a}_abc
