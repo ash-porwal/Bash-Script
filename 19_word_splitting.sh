@@ -69,7 +69,3 @@
         # -rw-rw-r-- 1 ashporwal ashporwal 0 Apr 22 18:04 2
         # -rw-rw-r-- 1 ashporwal ashporwal 0 Apr 22 18:04 1
         # ashporwal@myubuntu:~/ashish/test$ 
-
-
-
-

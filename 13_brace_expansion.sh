@@ -11,7 +11,7 @@
 # like this - echo {1..10}
 
 # Usage
-# 
+#
 
 echo {1,2,3,4,5,6,7,8,9,10}
 echo {1..10}
